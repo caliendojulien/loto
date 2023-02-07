@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {% for tirage in tirages %}
+        <p>Tirage du {{ tirage.date | date }}</p>
+    {% endfor %}
+{% endblock %}
+
+{% block title %}
+
+{% endblock %}
+
