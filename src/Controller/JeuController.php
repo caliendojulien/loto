@@ -157,5 +157,4 @@ class JeuController extends AbstractController
         return $tirage;
     }
 
-
 }
